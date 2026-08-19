@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impressum – YOUROPE</title>
+<meta name="robots" content="noindex">
+<style>
+:root {
+  --bg:        #d9d9d9;
+  --card:      #f4f4f4;
+  --ink:       #16181d;
+  --ink-soft:  rgba(22, 24, 29, 0.72);
+  --ink-faint: rgba(22, 24, 29, 0.5);
+  --navy:      #183e83;
+  --navy-deep: #122d63;
+  --line:      rgba(22, 24, 29, 0.16);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+}
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+}
+a { color: var(--navy); }
+.back {
+  display: inline-block;
+  margin-bottom: 2.5rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+.back:hover { color: var(--navy); }
+h1 {
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--navy-deep);
+  margin: 0 0 2.5rem;
+}
+h2 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 1.2rem;
+}
+.org-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 1.6rem 1.8rem;
+  margin-bottom: 1.6rem;
+}
+.org-card.placeholder {
+  border-style: dashed;
+  color: var(--ink-faint);
+}
+dl {
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem 1.5rem;
+}
+dt {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  align-self: start;
+  padding-top: 0.15rem;
+}
+dd {
+  margin: 0;
+  font-size: 0.98rem;
+}
+.note {
+  margin-top: 3rem;
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--ink-faint);
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">&larr; Zurück zur Startseite</a>
+  <h1>Impressum</h1>
+
+  <!-- Verein Deutschland -->
+  <div class="org-card">
+    <h2>The Future is YOUROPE e.V.</h2>
+    <dl>
+      <dt>Adresse</dt>
+      <dd>Malsenstr. 61, 80638 München, Deutschland</dd>
+      <dt>E-Mail</dt>
+      <dd><a href="mailto:info@yourope.io">info@yourope.io</a></dd>
+      <dt>Telefon</dt>
+      <dd><a href="tel:+436765938268">+43 676 5938268</a></dd>
+    </dl>
+  </div>
+
+  <!-- Verein Österreich -->
+  <div class="org-card">
+    <h2>Unser Kontinent – Verein für die Förderung einer gemeinschaftlichen europäischen Gesellschaft</h2>
+    <dl>
+      <dt>Adresse</dt>
+      <dd>Millergasse 7, 1060 Wien, Österreich</dd>
+      <dt>E-Mail</dt>
+      <dd><a href="mailto:info@yourope.io">info@yourope.io</a></dd>
+      <dt>Telefon</dt>
+      <dd><a href="tel:+436765938268">+43 676 5938268</a></dd>
+    </dl>
+  </div>
+
+  <p class="note">
+    Hinweis: Für ein rechtssicheres Impressum werden je nach Verein meist noch weitere
+    Angaben benötigt (z. B. Vereinsregisternummer, Registergericht, vertretungsberechtigter
+    Vorstand). Wir sind keine Rechtsberatung – bitte im Zweifel kurz prüfen lassen.
+  </p>
+</div>
+</body>
+</html>
