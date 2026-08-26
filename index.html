@@ -73,7 +73,8 @@ nav {
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 }
-.nav-logo img { height: 30px; width: auto; }
+.nav-logo { flex-shrink: 0; }
+.nav-logo img { height: 30px; width: auto; flex-shrink: 0; }
 .nav-links { display: flex; gap: 1.7rem; list-style: none; flex-wrap: wrap; }
 .nav-links a {
   font-size: 0.7rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase;
