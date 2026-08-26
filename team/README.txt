@@ -13,13 +13,12 @@ Content
   andreas-grassl.jpg        -> Andreas Grassl
   sinc-europaea.jpg         -> sinc.Europaea
 
-Regio-Leads
-  bernhard-walter.jpg       -> Bernhard Walter
-
-Volunteers
+Team
   mahiya-haque.jpg          -> Mahiya Haque
   ludwig-stein.jpg          -> Ludwig Stein
   lara-badr-el-din.jpg      -> Lara Badr El-Din
+  tristan-brede.jpg         -> Tristan Brede
+  bernhard-walter.jpg       -> Bernhard Walter
 
 Format: jpg oder png, Seitenverhältnis am besten 4:3.4 (Hochformat-Porträts
 funktionieren auch, werden automatisch mittig zugeschnitten). Empfohlen:
@@ -30,5 +29,5 @@ bis dahin zeigt die Kachel weiterhin die Initialen.
 
 Falls ihr andere Dateinamen braucht oder weitere Personen ergänzen wollt:
 im Team-Bereich von index.html die entsprechende Gruppe (Management /
-Content / Regio-Leads / Volunteers) suchen und dort einen zusätzlichen
-.member-Block nach dem gleichen Muster einfügen.
+Content / Team) suchen und dort einen zusätzlichen .member-Block nach
+dem gleichen Muster einfügen.
